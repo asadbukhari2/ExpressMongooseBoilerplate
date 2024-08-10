@@ -1,0 +1,38 @@
+{
+  "name": "ai-saas-backend",
+  "version": "1.0.0",
+  "description": "ai solution backend with user signup and calling third party API's",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/asdbukhari/AI-SAAS-BACKEND.git"
+  },
+  "keywords": [
+    "node",
+    "for",
+    "ai"
+  ],
+  "author": "Asad Bukhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asdbukhari/AI-SAAS-BACKEND/issues"
+  },
+  "homepage": "https://github.com/asdbukhari/AI-SAAS-BACKEND#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-group-routes": "^1.1.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "mongoose-unique-validator": "^5.0.1",
+    "morgan": "^1.10.0"
+  }
+}
